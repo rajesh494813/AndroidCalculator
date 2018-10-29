@@ -2,6 +2,8 @@
 
 Android APK : 
 
+Maven based java project.
+
 Pre-requisities to download : 
 
 1. Java8 language binding 
