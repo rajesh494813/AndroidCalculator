@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="149125" started-at="2018-10-29T15:22:38Z" finished-at="2018-10-29T15:25:08Z">
+    <groups>
+    </groups>
+    <test name="Sanity Test suite" duration-ms="149125" started-at="2018-10-29T15:22:38Z" finished-at="2018-10-29T15:25:08Z">
+      <class name="mobiletests.SanityTest">
+        <test-method status="PASS" signature="initialiseDriver()[pri:0, instance:mobiletests.SanityTest@9660f4e]" name="initialiseDriver" is-config="true" duration-ms="44718" started-at="2018-10-29T15:22:39Z" finished-at="2018-10-29T15:23:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseDriver -->
+        <test-method status="PASS" signature="additionTest(java.lang.String, java.lang.String)[pri:1, instance:mobiletests.SanityTest@9660f4e]" name="additionTest" duration-ms="27524" started-at="2018-10-29T15:23:24Z" data-provider="InputData" finished-at="2018-10-29T15:23:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- additionTest -->
+        <test-method status="PASS" signature="additionTest(java.lang.String, java.lang.String)[pri:1, instance:mobiletests.SanityTest@9660f4e]" name="additionTest" duration-ms="16921" started-at="2018-10-29T15:23:51Z" data-provider="InputData" finished-at="2018-10-29T15:24:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- additionTest -->
+        <test-method status="PASS" signature="subtractionTest()[pri:2, instance:mobiletests.SanityTest@9660f4e]" name="subtractionTest" duration-ms="17143" started-at="2018-10-29T15:24:08Z" finished-at="2018-10-29T15:24:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractionTest -->
+        <test-method status="PASS" signature="multiplicationTest()[pri:3, instance:mobiletests.SanityTest@9660f4e]" name="multiplicationTest" duration-ms="19915" started-at="2018-10-29T15:24:25Z" finished-at="2018-10-29T15:24:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplicationTest -->
+        <test-method status="PASS" signature="divisionTest()[pri:4, instance:mobiletests.SanityTest@9660f4e]" name="divisionTest" duration-ms="16906" started-at="2018-10-29T15:24:45Z" finished-at="2018-10-29T15:25:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divisionTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:mobiletests.SanityTest@9660f4e]" name="tearDown" is-config="true" duration-ms="5611" started-at="2018-10-29T15:25:02Z" finished-at="2018-10-29T15:25:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mobiletests.SanityTest -->
+    </test> <!-- Sanity Test suite -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="util.ExtentReporter"/>
+  </listeners>
+  <test thread-count="5" name="Sanity Test suite(failed)">
+    <classes>
+      <class name="mobiletests.SanityTest">
+        <methods>
+          <include name="additionTest"/>
+          <include name="tearDown"/>
+          <include name="multiplicationTest"/>
+          <include name="initialiseDriver"/>
+          <include name="divisionTest"/>
+          <include name="subtractionTest"/>
+        </methods>
+      </class> <!-- mobiletests.SanityTest -->
+    </classes>
+  </test> <!-- Sanity Test suite(failed) -->
+</suite> <!-- Failed suite [Suite] -->
