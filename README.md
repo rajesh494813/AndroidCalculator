@@ -1,6 +1,6 @@
 # AndroidCalculator
 
-Android APK : 
+Android APK : android-sample-app-apk
 
 Maven based java project.
 
@@ -17,6 +17,7 @@ Pre-requisities to download :
 Assumptions : 
 
 1. The device is Samsung android and OS version is 7.0.
+2. Install the app in test device
 
 To Modify test data : 
 
